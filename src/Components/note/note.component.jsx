@@ -11,7 +11,9 @@ function Note(props) {
  return (
   <div className='note-container'>
    <h1 className='note-title'>{props.title}</h1>
-   <p className='note-content'>{props.content}</p>
+   <div className='note-area'>
+    <p className='note-content'>{props.content}</p>
+   </div>
    <button className='del-btn' onClick={handleClick}>
     <DeleteForeverRoundedIcon className='del-icon' />
    </button>

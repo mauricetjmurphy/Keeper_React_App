@@ -13,6 +13,12 @@
  padding: 10px 0 0 12.5px !important;
 }
 
+.note-area {
+ height: 130px;
+ width: 280px;
+ overflow-y: scroll;
+}
+
 .note-content {
  font-size: 0.8rem;
  padding: 10px 0 0 12.5px;
@@ -21,7 +27,7 @@
 .del-btn {
  border: none;
  background: #fff;
- margin: 100px 0 0 230px;
+ margin: 5px 0 0 230px;
 }
 
 .del-icon {

@@ -27,6 +27,8 @@ function AddNote(props) {
  return (
   <div className='add-note-container'>
    <input
+    required
+    maxlength='20'
     className='add-note-input'
     onChange={handleChange}
     name='title'
@@ -35,7 +37,9 @@ function AddNote(props) {
     placeholder='Title'
    />
    <textarea
+    required
     rows='3'
+    wrap='soft'
     className='add-note-input'
     onChange={handleChange}
     name='content'
