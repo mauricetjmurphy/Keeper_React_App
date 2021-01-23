@@ -1,0 +1,26 @@
+.add-note-container {
+ height: 150px;
+ display: block;
+ border-radius: 5px;
+ width: 500px;
+ background: #fff;
+ margin: 10px 10px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ margin: 10px auto;
+ padding: 15px;
+}
+
+.add-note-input {
+ display: block;
+ margin: 15px 0 0 10px;
+ border: none;
+ font-size: 1rem;
+ width: 90%;
+ resize: none;
+}
+
+.add-btn {
+ float: right;
+ background: #fcb03e !important;
+ color: #fff !important;
+}
